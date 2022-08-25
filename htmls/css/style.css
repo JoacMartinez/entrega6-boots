@@ -1,0 +1,140 @@
+
+@font-face { 
+    font-family: footletra; 
+    src: url(../fonts/Kanit/Kanit-LightItalic.ttf);}
+
+@font-face { 
+    font-family: letraparrafo; 
+    src: url(../fonts/Kanit/Kanit-Light.ttf);}
+
+
+@font-face { 
+    font-family: letratitulo1; 
+    src: url(../fonts/Kanit/Kanit-ExtraBoldItalic.ttf);}
+
+@font-face { 
+    font-family: letrasubt; 
+    src: url(../fonts/Kanit/Kanit-Italic.ttf);}
+
+
+
+* {box-sizing: border-box;}
+
+nav {  
+    background-color: rgb(48, 77, 109); 
+    border-radius: 15px; 
+    color:rgb(205, 209, 196)} 
+
+footer { 
+    background-color:rgb(48 ,77,109); 
+    border-radius: 15px;} 
+
+body { 
+    border-radius: 15px; 
+    background-color:rgb(205, 209, 196);} 
+
+
+.flex { 
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+}
+
+.grid{ 
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%; 
+    gap: 1em; 
+    
+}
+
+
+.grid2{ 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.colorna {color: rgb(205, 209, 196);} 
+
+
+.h1t {
+    background-color: rgb(48, 77, 109); 
+    text-align: center; 
+    color: rgb(205, 209, 196); 
+    border-radius: 15px; 
+    font-family: letratitulo1; 
+    width: 250px;} 
+
+.h2subt {  
+    text-align: center; 
+    font-family: letrasubt; 
+    font-size: 30px; 
+    color: rgb(48 ,77,109 );  
+    border: solid 2px rgb(48 ,77,109 );} 
+
+.pricet {font-size: 18px;}
+
+
+.marcs { 
+    text-align: center; 
+    font-family: letrasubt; 
+    font-size: 25px; color: rgb(48 ,77,109);  
+    border: solid 2px rgb(48 ,77,109);}
+
+
+.lefoot {font-family: letraparrafo;}  
+
+
+.contenid {font-family: letraparrafo;}
+
+
+.bodyf { 
+    font-family: letraparrafo; 
+    margin: 0 auto; 
+    border: solid 2px;    
+    height: 400px;
+    width: 300px;}
+
+.imagenestienda {width: 250px;} 
+
+.banner {
+    height: 250px;
+    width: 1329px; 
+    border-radius: 15px;} 
+
+.logo {
+    height: 100px; 
+    margin-right : 35px;
+    margin-top: 3px; 
+    margin-left: -25px; 
+    margin-bottom: -6px;}
+
+
+.ordenfoot {
+    display: flex; 
+    flex-direction: row; 
+    font-family: footletra;
+    
+}
+
+.listn {
+    list-style: none;
+}
+
+.tipefoot {list-style-type: circle;}
+
+.decoracion {text-decoration: none;}
+
+.tipepreg {list-style-type:georgian}
+
+.nosotrosima {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+
+
+
